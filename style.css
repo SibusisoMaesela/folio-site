@@ -1,0 +1,169 @@
+body {
+    background: linear-gradient(to bottom, #b0b0b0, #87CEFA);
+}
+
+nav {
+    width: 100%; /* Stretch the navigation bar across the full width */
+    background: transparent; /* Set the background color of the navigation bar to transparent */
+    border: 1px solid #000; /* Border around the navigation bar */
+    text-align: center; /* Center-align the navigation links */
+}
+
+nav ul {
+    list-style: none; /* To remove the default list styling */
+    padding: 0; /* To remove padding from the unordered list */
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin: 0 10px; /* Add margin to separate the links */
+}
+
+nav a {
+    padding: 10px 20px; /* Add padding to make the links bigger */
+    font-size: 18px; /* Adjust the font size as needed */
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set the text color for links */
+}
+.profile {
+    text-align: center; /* Center-align content within the section */
+}
+
+.profile-container {
+    display: inline-block; /* Display the container as an inline-block element */
+}
+
+#profile-photo {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+#profile-photo:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+/* Add styles for the profile picture container */
+.profile-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+/* Add styles for the second image (initially hidden) */
+#hover-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Apply hover effect to show the second image */
+.profile-container:hover #hover-photo {
+    opacity: 1;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+#profile-photo {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+/* Style for the new table */
+.table-section {
+    margin: 20px auto; /* Center-align the table section */
+}
+
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; /* Add some space between the Education and Skills tables */
+}
+
+.table-section td {
+    padding: 8px;
+    border: 1px solid #000; /* Add borders to table cells */
+    text-align: left;
+}
+h2, h3 {
+    text-decoration: underline; /* Add underlines to h2 and h3 headings */
+}
+#counter-box {
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #333; /* Border around the counter box */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the box */
+    width: 300px; /* Increase the width */
+    height: 300px; /* Increase the height to create a larger square */
+}
+
+.counter-number {
+    font-size: 48px; /* Increase the size of the numbers */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* Center the form container */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically in the viewport */
+}
+
+/* Style form elements */
+.form-group {
+    text-align: center; /* Center labels */
+    margin: 10px 0;
+}
+
+label {
+    display: block; /* Labels on a new line */
+}
+
+/* Adjust the width of text input and textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* 100% width for text inputs and textarea */
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Make the textarea taller */
+textarea {
+    height: 150px; /* Adjust the desired height */
+}
+
+
+
+
+
+
+
+
+
