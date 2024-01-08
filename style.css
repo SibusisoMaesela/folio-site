@@ -3,46 +3,46 @@ body {
 }
 
 nav {
-    width: 100%; /* Stretch the navigation bar across the full width */
-    background: transparent; /* Set the background color of the navigation bar to transparent */
-    border: 1px solid #000; /* Border around the navigation bar */
-    text-align: center; /* Center-align the navigation links */
+    width: 100%; 
+    background: transparent; 
+    border: 1px solid #000;
+    text-align: center; 
 }
 
 nav ul {
-    list-style: none; /* To remove the default list styling */
-    padding: 0; /* To remove padding from the unordered list */
+    list-style: none; 
+    padding: 0; 
 }
 
 nav li {
-    display: inline; /* Display list items horizontally */
-    margin: 0 10px; /* Add margin to separate the links */
+    display: inline; 
+    margin: 0 10px; 
 }
 
 nav a {
-    padding: 10px 20px; /* Add padding to make the links bigger */
-    font-size: 18px; /* Adjust the font size as needed */
-    text-decoration: none; /* Remove underline from links */
-    color: #000; /* Set the text color for links */
+    padding: 10px 20px; 
+    font-size: 18px; 
+    text-decoration: none; 
+    color: #000; 
 }
 .profile {
-    text-align: center; /* Center-align content within the section */
+    text-align: center; 
 }
 
 .profile-container {
-    display: inline-block; /* Display the container as an inline-block element */
+    display: inline-block; 
 }
 
 #profile-photo {
-    width: 200px; /* Adjust the size as needed */
+    width: 200px; 
     height: 200px;
-    transition: transform 0.3s ease; /* Add a smooth transition */
+    transition: transform 0.3s ease; 
 }
 
 #profile-photo:hover {
-    transform: scale(1.1); /* Scale up the image on hover */
+    transform: scale(1.1); 
 }
-/* Add styles for the profile picture container */
+
 .profile-container {
     position: relative;
     width: 200px;
@@ -50,7 +50,7 @@ nav a {
     overflow: hidden;
 }
 
-/* Add styles for the second image (initially hidden) */
+
 #hover-photo {
     position: absolute;
     top: 0;
@@ -61,7 +61,7 @@ nav a {
     transition: opacity 0.3s;
 }
 
-/* Apply hover effect to show the second image */
+
 .profile-container:hover #hover-photo {
     opacity: 1;
 }
@@ -87,37 +87,37 @@ th, td {
     border: 2px solid #000;
     border-radius: 50%;
 }
-/* Style for the new table */
+
 .table-section {
-    margin: 20px auto; /* Center-align the table section */
+    margin: 20px auto; 
 }
 
 .table-section table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px; /* Add some space between the Education and Skills tables */
+    margin-top: 10px; 
 }
 
 .table-section td {
     padding: 8px;
-    border: 1px solid #000; /* Add borders to table cells */
+    border: 1px solid #000; 
     text-align: left;
 }
 h2, h3 {
-    text-decoration: underline; /* Add underlines to h2 and h3 headings */
+    text-decoration: underline; 
 }
 #counter-box {
     text-align: center;
     margin: 20px;
-    border: 2px solid #333; /* Border around the counter box */
+    border: 2px solid #333; 
     padding: 20px;
-    border-radius: 10px; /* Rounded corners for the box */
-    width: 300px; /* Increase the width */
-    height: 300px; /* Increase the height to create a larger square */
+    border-radius: 10px; 
+    width: 300px; 
+    height: 300px; 
 }
 
 .counter-number {
-    font-size: 48px; /* Increase the size of the numbers */
+    font-size: 48px; 
 }
 
 button {
@@ -127,36 +127,36 @@ button {
     border: none;
     cursor: pointer;
 }
-/* Center the form container */
+
 .form-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Center vertically in the viewport */
+    height: 100vh; 
 }
 
-/* Style form elements */
+
 .form-group {
-    text-align: center; /* Center labels */
+    text-align: center; 
     margin: 10px 0;
 }
 
 label {
-    display: block; /* Labels on a new line */
+    display: block; 
 }
 
-/* Adjust the width of text input and textarea */
+
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%; /* 100% width for text inputs and textarea */
+    width: 100%; 
     padding: 8px;
     box-sizing: border-box;
 }
 
-/* Make the textarea taller */
+
 textarea {
-    height: 150px; /* Adjust the desired height */
+    height: 150px; 
 }
 
 
